@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zainab Umar – Portfolio</title>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #12121f;
+        color: #eee;
+    }
+
+    header {
+        background: #4a4a8a;
+        text-align: center;
+        padding: 20px 0;
+        color: #fff;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        color: #ffd966;
+    }
+
+    .container {
+        width: 90%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+    }
+
+    .card {
+        background: linear-gradient(145deg, #2e2e50, #23233f);
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.7);
+    }
+
+    .card h2 {
+        color: #ffd966;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .card ul {
+        padding-left: 20px;
+    }
+
+    .card .icons {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .card .icons img {
+        width: 50px;
+        height: 50px;
+        transition: transform 0.3s;
+    }
+
+    .card .icons img:hover {
+        transform: scale(1.2);
+    }
+
+    footer {
+        text-align: center;
+        background: #4a4a8a;
+        color: #fff;
+        padding: 15px 0;
+        margin-top: 40px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table th, table td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    table tr:nth-child(even) {
+        background: #2b2b4b;
+    }
+
+    table tr:nth-child(odd) {
+        background: #1f1f38;
+    }
+
+    table th {
+        background: #3a3a7a;
+        color: #fff;
+    }
+
+    @media (max-width: 600px) {
+        .card .icons {
+            justify-content: center;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Zainab Umar – Portfolio</h1>
+    <nav>
+        <a href="aboutus.html">About Me</a>
+        <a href="project.html">Projects</a>
+    </nav>
+</header>
+
+<div class="container">
+    <!-- EDUCATION CARD -->
+    <div class="card">
+        <h2>🎓 Education</h2>
+        <table>
+            <tr>
+                <th>Degree / Course</th>
+                <th>Institute</th>
+                <th>Year</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>O Levels</td>
+                <td>Beaconhouse Liberty</td>
+                <td>2021–2023</td>
+                <td>95%</td>
+            </tr>
+            <tr>
+                <td>Intermediate (ICS)</td>
+                <td>Punjab College</td>
+                <td>2023–2025</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>University (Enrolled)</td>
+                <td>KCWU</td>
+                <td>2025–2029</td>
+                <td>Enrolled</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- EXPERIENCE CARD -->
+    <div class="card">
+        <h2>💼 Experience</h2>
+        <div class="icons">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt="GitHub">
+        </div>
+        <ul>
+            <li>Coding practice & exercises</li>
+            <li>Organized school-level events</li>
+            <li>Created games (Chicken Run, Flappy Bird)</li>
+            <li>Uploaded projects on GitHub</li>
+        </ul>
+    </div>
+
+    <!-- SKILLS CARD -->
+    <div class="card">
+        <h2>⚙️ Skills</h2>
+        <div class="icons">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/HTML5_logo_and_wordmark.svg" alt="HTML5">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt="GitHub">
+        </div>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>Basic C++ knowledge</li>
+            <li>Canva Designing</li>
+            <li>Game Development</li>
+            <li>Data Handling (MS Excel)</li>
+            <li>Git & GitHub basics</li>
+        </ul>
+    </div>
+
+    <!-- PROJECTS CARD -->
+    <div class="card">
+        <h2>📁 Projects</h2>
+        <div class="icons">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt="GitHub">
+        </div>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>Canva Posters</li>
+            <li>Resume designed in Canva</li>
+            <li>Games (Chicken Run, Flappy Bird)</li>
+            <li>GitHub repository with code and projects</li>
+        </ul>
+    </div>
+
+    <!-- CONTACT CARD -->
+    <div class="card">
+        <h2>📞 Contact</h2>
+        <p>Email: <b>zainabbb443@gmail.com</b></p>
+        <p>Phone: <b>0329-1040007</b></p>
+    </div>
+</div>
+
+<footer>
+    © 2025 Zainab Umar — All Rights Reserved
+</footer>
+
+</body>
+</html>
