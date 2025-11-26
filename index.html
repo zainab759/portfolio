@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,21 +11,19 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         padding: 0;
-        background: linear-gradient(to bottom right, #fef9ff, #e6eeff);
-        color: #333;
+        background: #ffffff; /* white background */
+        color: #12121f;
     }
 
     header {
-        background: linear-gradient(to right, #ffffff, #f2f2ff);
+        background: #4a4a8a;
         text-align: center;
-        padding: 25px 0;
-        color: #333;
-        border-bottom: 2px solid #e6e6e6;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        padding: 20px 0;
+        color: #fff;
     }
 
     nav a {
-        color: #444;
+        color: #fff;
         text-decoration: none;
         margin: 0 15px;
         font-weight: bold;
@@ -32,7 +31,7 @@
     }
 
     nav a:hover {
-        color: #6b62d9;
+        color: #ffd966;
     }
 
     .container {
@@ -42,13 +41,12 @@
     }
 
     .card {
-        background: #ffffffcc;
+        background: linear-gradient(145deg, #2e2e50, #23233f);
         border-radius: 15px;
         padding: 30px;
-        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
         text-align: center;
-        backdrop-filter: blur(8px);
-        border: 1px solid rgba(180, 180, 255, 0.3);
+        color: #eee;
     }
 
     .card img.profile-pic {
@@ -57,12 +55,12 @@
         border-radius: 50%;
         object-fit: cover;
         margin-bottom: 20px;
-        border: 5px solid #c7c5ff;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border: 5px solid #3a3a7a;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
 
     h2 {
-        color: #5e54c7;
+        color: #ffd966;
         margin-bottom: 15px;
         font-size: 26px;
     }
@@ -70,11 +68,11 @@
     p {
         line-height: 1.8;
         font-size: 16px;
-        color: #555;
+        color: #eee;
     }
 
     a.kc-link {
-        color: #6d63e8;
+        color: #ffd966;
         font-weight: 700;
         text-decoration: none;
     }
@@ -85,14 +83,13 @@
 
     footer {
         text-align: center;
-        background: linear-gradient(to right, #ffffff, #f2f2ff);
-        color: #333;
+        background: #4a4a8a;
+        color: #fff;
         padding: 15px 0;
         margin-top: 50px;
-        border-top: 2px solid #e6e6e6;
-        box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
     }
 </style>
+
 </head>
 <body>
 
@@ -107,23 +104,29 @@
 <div class="container">
     <div class="card">
         <img src="images/WhatsApp Image 2025-11-26 at 10.25.35 PM.jpeg" alt="Profile Picture" class="profile-pic">
-        
-        <h2>👩 About Me</h2>
 
-        <p>
-            Hello! I’m <b>Zainab Umar</b>, an enthusiastic tech learner preparing to start my 
-            <b>Bachelor’s in Computer Science</b> at 
-            <a class="kc-link" href="https://www.kinnaird.edu.pk/" target="_blank">Kinnaird College for Women</a>.
-        </p>
+```
+    <h2>👩 About Me</h2>
 
-        <p>
-            I’m passionate about programming, web design, and building creative digital projects. I love experimenting with new tools, making games, and growing my development skills through continuous learning.
-        </p>
+    <p>
+        Hello! I’m <b>Zainab Umar</b>, an enthusiastic tech learner preparing to start my 
+        <b>Bachelor’s in Computer Science</b>.
+    </p>
 
-        <p>
-            My goal is to become a skilled software developer and contribute to innovative and impactful technology solutions in the future.
-        </p>
-    </div>
+    <p>
+        I’m passionate about programming, web design, and building creative digital projects. I love experimenting with new tools, making games, and growing my development skills through continuous learning.
+    </p>
+
+    <p>
+        My goal is to become a skilled software developer and contribute to innovative and impactful technology solutions in the future.
+    </p>
+
+    <p>
+        Learn more about my college here: <a class="kc-link" href="https://www.kinnaird.edu.pk/" target="_blank">Kinnaird College for Women</a>.
+    </p>
+</div>
+```
+
 </div>
 
 <footer>
