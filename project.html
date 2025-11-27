@@ -11,6 +11,7 @@
         margin: 0;
         padding: 0;
         background: #ffffff;
+        color: #121212;
     }
 
     header {
@@ -63,11 +64,16 @@
         color: #5a381f;
     }
 
-    /* Email Icon Fix */
-    .email-icon {
+    /* Small icons */
+    .icon {
         width: 24px;
+        height: 24px;
         vertical-align: middle;
         margin-right: 8px;
+    }
+
+    .links p {
+        margin: 5px 0;
     }
 
 </style>
@@ -94,21 +100,25 @@
         </ul>
     </div>
 
-    <!-- Experience Section Updated -->
+    <!-- Experience Section -->
     <div class="card">
         <h2>💼 Experience</h2>
 
-        <p><strong>Canva Portfolio:</strong>
-            <a href="https://zainabcanva.com" target="_blank" style="color:#8d5e34;">
-                Open my Canva Designs
-            </a>
-        </p>
+        <div class="links">
+            <p>
+                <strong>Canva Portfolio:</strong>
+                <a href="https://zainabcanva.com" target="_blank" style="color:#8d5e34; text-decoration:none;">
+                    Open my Canva Designs
+                </a>
+            </p>
 
-        <p><strong>GitHub Profile:</strong>
-            <a href="https://github.com/zainab759/portfolio" target="_blank" style="color:#8d5e34;">
-                Visit my GitHub Repositories
-            </a>
-        </p>
+            <p>
+                <strong>GitHub Profile:</strong>
+                <a href="https://github.com/zainab759/portfolio" target="_blank" style="color:#8d5e34; text-decoration:none;">
+                    Visit my GitHub Repositories
+                </a>
+            </p>
+        </div>
 
         <ul>
             <li>Coding practice & exercises</li>
@@ -123,8 +133,8 @@
         <h2>📩 Contact</h2>
 
         <p>
-            <img src="images/email-icon.png" class="email-icon" alt="email icon">
-            <a href="mailto:zainabumar270@gmail.com" style="color:#8d5e34;">
+            <img src="images/email-icon.png" class="icon" alt="email icon">
+            <a href="mailto:zainabumar270@gmail.com" style="color:#8d5e34; text-decoration:none;">
                 zainabumar270@gmail.com
             </a>
         </p>
