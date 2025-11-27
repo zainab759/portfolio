@@ -11,8 +11,8 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         padding: 0;
-        background: #ffffff; /* changed to white */
-        color: #12121f; /* text color dark for readability */
+        background: #ffffff;
+        color: #12121f;
     }
 
     header {
@@ -66,23 +66,6 @@
         padding-left: 20px;
     }
 
-    .card .icons {
-        display: flex;
-        gap: 15px;
-        margin-bottom: 15px;
-        align-items: center;
-    }
-
-    .card .icons img {
-        width: 30px;
-        height: 30px;
-        transition: transform 0.3s;
-    }
-
-    .card .icons img:hover {
-        transform: scale(1.2);
-    }
-
     footer {
         text-align: center;
         background: #4a4a8a;
@@ -114,6 +97,20 @@
         background: #3a3a7a;
         color: #fff;
     }
+
+    /* Small contact icons */
+    .contact-icons img {
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+    .contact-icons a {
+        color: #ffd966;
+        text-decoration: none;
+        vertical-align: middle;
+    }
 </style>
 
 </head>
@@ -128,41 +125,60 @@
 </header>
 
 <div class="container">
-    <!-- EDUCATION CARD -->
-    <div class="card">
-        <h2>🎓 Education</h2>
-        <table>
-            <tr>
-                <th>Degree / Course</th>
-                <th>Institute</th>
-                <th>Year</th>
-                <th>Grade</th>
-            </tr>
-            <tr>
-                <td>O Levels</td>
-                <td>Beaconhouse Liberty</td>
-                <td>2021–2023</td>
-                <td>95%</td>
-            </tr>
-            <tr>
-                <td>Intermediate (ICS)</td>
-                <td>Punjab College</td>
-                <td>2023–2025</td>
-                <td>90%</td>
-            </tr>
-            <tr>
-                <td>University (Enrolled)</td>
-                <td>Kinnaird College for Women</td>
-                <td>2025–2029</td>
-                <td>Enrolled</td>
-            </tr>
-        </table>
-    </div>
 
 ```
-<!-- EXPERIENCE CARD -->
+<!-- EDUCATION -->
+<div class="card">
+    <h2>🎓 Education</h2>
+    <table>
+        <tr>
+            <th>Degree / Course</th>
+            <th>Institute</th>
+            <th>Year</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>O Levels</td>
+            <td>Beaconhouse Liberty</td>
+            <td>2021–2023</td>
+            <td>95%</td>
+        </tr>
+        <tr>
+            <td>Intermediate (ICS)</td>
+            <td>Punjab College</td>
+            <td>2023–2025</td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td>University (Enrolled)</td>
+            <td>Kinnaird College for Women</td>
+            <td>2025–2029</td>
+            <td>Enrolled</td>
+        </tr>
+    </table>
+</div>
+
+<!-- EXPERIENCE -->
 <div class="card">
     <h2>💼 Experience</h2>
+
+    <!-- Updated links -->
+    <div style="margin-bottom: 15px;">
+        <p>
+            <strong>Canva Portfolio:</strong>
+            <a href="https://zainabcanva.com" target="_blank" style="color:#ffd966; text-decoration:none;">
+                zainabcanva.com
+            </a>
+        </p>
+
+        <p>
+            <strong>GitHub Profile:</strong>
+            <a href="https://zainab759.github.io/portfolio/project.html" target="_blank" style="color:#ffd966; text-decoration:none;">
+                View my GitHub Projects
+            </a>
+        </p>
+    </div>
+
     <ul>
         <li>Coding practice & exercises</li>
         <li>Organized school-level events</li>
@@ -171,13 +187,15 @@
     </ul>
 </div>
 
-<!-- SKILLS CARD -->
+<!-- SKILLS -->
 <div class="card">
     <h2>⚙️ Skills</h2>
+
     <div class="icons">
-        <img src="images/GitHub-logo.jpg" alt="Scratch Logo" title="Scratch">
-        <img src="images/scratch-cat-logo.png" alt="Git Logo" title="Git">
+        <img src="images/GitHub-logo.jpg" alt="GitHub Logo">
+        <img src="images/scratch-cat-logo.png" alt="Scratch Logo">
     </div>
+
     <ul>
         <li>HTML5 & CSS3</li>
         <li>Basic C++ knowledge</li>
@@ -188,7 +206,7 @@
     </ul>
 </div>
 
-<!-- PROJECTS CARD -->
+<!-- PROJECTS -->
 <div class="card">
     <h2>📁 Projects</h2>
     <ul>
@@ -200,16 +218,18 @@
     </ul>
 </div>
 
-<!-- CONTACT CARD -->
+<!-- CONTACT -->
 <div class="card">
     <h2>📞 Contact</h2>
-    <div class="icons">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Email Icon" title="Email">
-        <span style="margin-left:10px;">zainabbb443@gmail.com</span>
+
+    <div class="contact-icons">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Email Icon">
+        <a href="mailto:zainabbb443@gmail.com">zainabbb443@gmail.com</a>
     </div>
-    <div class="icons">
-        <img src="images/tel-phone-icon-5.png" alt="Phone Icon" title="Phone">
-        <span style="margin-left:10px;">0329-1040007</span>
+
+    <div class="contact-icons" style="margin-top:10px;">
+        <img src="images/tel-phone-icon-5.png" alt="Phone Icon">
+        <a href="tel:03291040007">0329-1040007</a>
     </div>
 </div>
 ```
