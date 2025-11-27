@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -12,246 +11,126 @@
         margin: 0;
         padding: 0;
         background: #ffffff;
-        color: #12121f;
     }
 
     header {
-        background: #4a4a8a;
+        background-color: #5a381f;
+        color: white;
+        padding: 20px;
         text-align: center;
-        padding: 20px 0;
-        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    nav {
+        background-color: #8d5e34;
+        padding: 10px;
+        text-align: center;
     }
 
     nav a {
-        color: #fff;
+        color: white;
         text-decoration: none;
-        margin: 0 15px;
-        font-weight: bold;
+        padding: 12px 20px;
+        font-size: 18px;
+        display: inline-block;
         transition: 0.3s;
     }
 
     nav a:hover {
-        color: #ffd966;
+        background-color: #6e4726;
+        border-radius: 5px;
     }
 
     .container {
-        width: 90%;
-        margin: 30px auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 25px;
+        padding: 30px;
+        max-width: 900px;
+        margin: auto;
     }
 
     .card {
-        background: linear-gradient(145deg, #2e2e50, #23233f);
-        border-radius: 15px;
+        background: #fff8f0;
         padding: 20px;
-        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-        transition: transform 0.3s, box-shadow 0.3s;
-        color: #eee;
-    }
-
-    .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+        margin-bottom: 25px;
+        border-left: 5px solid #8d5e34;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     .card h2 {
-        color: #ffd966;
-        margin-bottom: 15px;
-        font-size: 22px;
+        margin-top: 0;
+        color: #5a381f;
     }
 
-    .card ul {
-        padding-left: 20px;
-    }
-
-    footer {
-        text-align: center;
-        background: #4a4a8a;
-        color: #fff;
-        padding: 15px 0;
-        margin-top: 40px;
-    }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        color: #eee;
-    }
-
-    table th, table td {
-        padding: 10px;
-        text-align: left;
-    }
-
-    table tr:nth-child(even) {
-        background: #2b2b4b;
-    }
-
-    table tr:nth-child(odd) {
-        background: #1f1f38;
-    }
-
-    table th {
-        background: #3a3a7a;
-        color: #fff;
-    }
-
-    /* Small contact icons */
-    .contact-icons img {
+    /* Email Icon Fix */
+    .email-icon {
         width: 24px;
-        height: 24px;
         vertical-align: middle;
         margin-right: 8px;
     }
 
-    .contact-icons a {
-        color: #ffd966;
-        text-decoration: none;
-        vertical-align: middle;
-    }
-
-    /* Responsive icons for smaller screens */
-    @media (max-width: 600px) {
-        .contact-icons img {
-            width: 18px;
-            height: 18px;
-            margin-right: 6px;
-        }
-
-        .container {
-            gap: 15px;
-        }
-    }
 </style>
-
 </head>
+
 <body>
 
-<header>
-    <h1>Zainab Umar – Portfolio</h1>
-    <nav>
-        <a href="index.html">About Me</a>
-        <a href="project.html">Projects</a>
-    </nav>
-</header>
+<header>My Projects</header>
+
+<nav>
+    <a href="index.html">About Me</a>
+    <a href="project.html">Projects</a>
+</nav>
 
 <div class="container">
 
-```
-<!-- EDUCATION -->
-<div class="card">
-    <h2>🎓 Education</h2>
-    <table>
-        <tr>
-            <th>Degree / Course</th>
-            <th>Institute</th>
-            <th>Year</th>
-            <th>Grade</th>
-        </tr>
-        <tr>
-            <td>O Levels</td>
-            <td>Beaconhouse Liberty</td>
-            <td>2021–2023</td>
-            <td>95%</td>
-        </tr>
-        <tr>
-            <td>Intermediate (ICS)</td>
-            <td>Punjab College</td>
-            <td>2023–2025</td>
-            <td>90%</td>
-        </tr>
-        <tr>
-            <td>University (Enrolled)</td>
-            <td>Kinnaird College for Women</td>
-            <td>2025–2029</td>
-            <td>Enrolled</td>
-        </tr>
-    </table>
-</div>
+    <!-- Personal Projects -->
+    <div class="card">
+        <h2>📌 Personal Projects</h2>
+        <ul>
+            <li>Chicken Run Game</li>
+            <li>Flappy Bird Game</li>
+            <li>Basic Coding Projects</li>
+        </ul>
+    </div>
 
-<!-- EXPERIENCE -->
-<div class="card">
-    <h2>💼 Experience</h2>
+    <!-- Experience Section Updated -->
+    <div class="card">
+        <h2>💼 Experience</h2>
 
-    <!-- Updated links -->
-    <div style="margin-bottom: 15px;">
-        <p>
-            <strong>Canva Portfolio:</strong>
-            <a href="https://zainabcanva.com" target="_blank" style="color:#ffd966; text-decoration:none;">
-                zainabcanva.com
+        <p><strong>Canva Portfolio:</strong>
+            <a href="https://zainabcanva.com" target="_blank" style="color:#8d5e34;">
+                Open my Canva Designs
             </a>
         </p>
 
+        <p><strong>GitHub Profile:</strong>
+            <a href="https://github.com/zainab759/portfolio" target="_blank" style="color:#8d5e34;">
+                Visit my GitHub Repositories
+            </a>
+        </p>
+
+        <ul>
+            <li>Coding practice & exercises</li>
+            <li>Organized school-level events</li>
+            <li>Created games (Chicken Run, Flappy Bird)</li>
+            <li>Uploaded projects on GitHub</li>
+        </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="card">
+        <h2>📩 Contact</h2>
+
         <p>
-            <strong>GitHub Profile:</strong>
-            <a href="https://zainab759.github.io/portfolio/project.html" target="_blank" style="color:#ffd966; text-decoration:none;">
-                View my GitHub Projects
+            <img src="images/email-icon.png" class="email-icon" alt="email icon">
+            <a href="mailto:zainabumar270@gmail.com" style="color:#8d5e34;">
+                zainabumar270@gmail.com
             </a>
         </p>
     </div>
 
-    <ul>
-        <li>Coding practice & exercises</li>
-        <li>Organized school-level events</li>
-        <li>Created games (Chicken Run, Flappy Bird)</li>
-        <li>Uploaded projects on GitHub</li>
-    </ul>
 </div>
-
-<!-- SKILLS -->
-<div class="card">
-    <h2>⚙️ Skills</h2>
-
-    <div class="icons">
-        <img src="images/GitHub-logo.jpg" alt="GitHub Logo">
-        <img src="images/scratch-cat-logo.png" alt="Scratch Logo">
-    </div>
-
-    <ul>
-        <li>HTML5 & CSS3</li>
-        <li>Basic C++ knowledge</li>
-        <li>Canva Designing</li>
-        <li>Game Development</li>
-        <li>Data Handling (MS Excel)</li>
-        <li>Git & GitHub basics</li>
-    </ul>
-</div>
-
-<!-- PROJECTS -->
-<div class="card">
-    <h2>📁 Projects</h2>
-    <ul>
-        <li>Portfolio Website</li>
-        <li>Canva Posters</li>
-        <li>Resume designed in Canva</li>
-        <li>Games (Chicken Run, Flappy Bird)</li>
-        <li>GitHub repository with code and projects</li>
-    </ul>
-</div>
-
-<!-- CONTACT -->
-<div class="card">
-    <h2>📞 Contact</h2>
-
-    <div class="contact-icons">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Email Icon">
-        <a href="mailto:zainabbb443@gmail.com">zainabbb443@gmail.com</a>
-    </div>
-
-    <div class="contact-icons" style="margin-top:10px;">
-        <img src="images/tel-phone-icon-5.png" alt="Phone Icon">
-        <a href="tel:03291040007">0329-1040007</a>
-    </div>
-</div>
-```
-
-</div>
-
-<footer>
-    © 2025 Zainab Umar — All Rights Reserved
-</footer>
 
 </body>
 </html>
